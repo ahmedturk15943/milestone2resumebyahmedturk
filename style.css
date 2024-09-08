@@ -1,0 +1,78 @@
+/* Basic styling for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Container for resume content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center align for header section */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Styling for the name (h1) and other contact details */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+.header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Style links (email, phone, LinkedIn) */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for section titles */
+.section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* General text styling for each section */
+.section {
+    margin-bottom: 20px;
+}
+.section p, .section ul {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* List styling for education, skills, projects, etc. */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 15px;
+}
+
+/* Add slight hover effect to links */
+a {
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #1d6fa5;
+}
